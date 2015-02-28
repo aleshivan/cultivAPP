@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1C1B0D1AA21251006045AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C1B0C1AA21251006045AE /* main.m */; };
+		8C1C1B101AA21251006045AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C1B0F1AA21251006045AE /* AppDelegate.m */; };
+		8C1C1B131AA21251006045AE /* CultivApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C1B111AA21251006045AE /* CultivApp.xcdatamodeld */; };
+		8C1C1B161AA21251006045AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C1B151AA21251006045AE /* ViewController.m */; };
+		8C1C1B191AA21251006045AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B171AA21251006045AE /* Main.storyboard */; };
+		8C1C1B1B1AA21251006045AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B1A1AA21251006045AE /* Images.xcassets */; };
+		8C1C1B1E1AA21251006045AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B1C1AA21251006045AE /* LaunchScreen.xib */; };
+		8C1C1B2A1AA21251006045AE /* CultivAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C1B291AA21251006045AE /* CultivAppTests.m */; };
+		8C1C1B341AA212BD006045AE /* Octocat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B331AA212BD006045AE /* Octocat.png */; };
+		8C1C1B361AA21BDF006045AE /* leaf-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B351AA21BDF006045AE /* leaf-32.png */; };
+		8C1C1B381AA21BED006045AE /* mashroom-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B371AA21BED006045AE /* mashroom-32.png */; };
+		8C1C1B3A1AA21BFF006045AE /* for_experienced-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B391AA21BFF006045AE /* for_experienced-32.png */; };
+		8C1C1B3C1AA21FD4006045AE /* bug2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B3B1AA21FD4006045AE /* bug2-32.png */; };
+		8C1C1B3E1AA22005006045AE /* camera_identification-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B3D1AA22005006045AE /* camera_identification-32.png */; };
+		8C1C1B471AA2222B006045AE /* Comentario.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C1B461AA2222B006045AE /* Comentario.m */; };
+		8C1C1B4A1AA2232E006045AE /* Respuesta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C1B491AA2232E006045AE /* Respuesta.m */; };
+		8C1C1B4C1AA2251B006045AE /* user_male_circle-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B4B1AA2251B006045AE /* user_male_circle-32.png */; };
+		8C1C1B4E1AA22526006045AE /* user_female4-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B4D1AA22526006045AE /* user_female4-32.png */; };
+		8C1C1B511AA225E9006045AE /* ComentariosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C1B501AA225E9006045AE /* ComentariosTableViewController.m */; };
+		8C1C1B541AA226C2006045AE /* ComentarioTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C1B531AA226C2006045AE /* ComentarioTableViewCell.m */; };
+		8C1C1B561AA22927006045AE /* user_male_4-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B551AA22927006045AE /* user_male_4-50.png */; };
+		8C1C1B581AA22934006045AE /* user_female_4-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C1B571AA22934006045AE /* user_female_4-50.png */; };
+		8C5F6A311AA23A1C0045D007 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5F6A301AA23A1C0045D007 /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C1C1B241AA21251006045AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C1C1AFF1AA21251006045AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C1C1B061AA21251006045AE;
+			remoteInfo = CultivApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C1C1B071AA21251006045AE /* CultivApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CultivApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1C1B0B1AA21251006045AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1C1B0C1AA21251006045AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C1C1B0E1AA21251006045AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C1C1B0F1AA21251006045AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C1C1B121AA21251006045AE /* CultivApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CultivApp.xcdatamodel; sourceTree = "<group>"; };
+		8C1C1B141AA21251006045AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C1C1B151AA21251006045AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C1C1B181AA21251006045AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C1C1B1A1AA21251006045AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C1C1B1D1AA21251006045AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8C1C1B231AA21251006045AE /* CultivAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CultivAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1C1B281AA21251006045AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1C1B291AA21251006045AE /* CultivAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CultivAppTests.m; sourceTree = "<group>"; };
+		8C1C1B331AA212BD006045AE /* Octocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Octocat.png; sourceTree = "<group>"; };
+		8C1C1B351AA21BDF006045AE /* leaf-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leaf-32.png"; sourceTree = "<group>"; };
+		8C1C1B371AA21BED006045AE /* mashroom-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mashroom-32.png"; sourceTree = "<group>"; };
+		8C1C1B391AA21BFF006045AE /* for_experienced-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "for_experienced-32.png"; sourceTree = "<group>"; };
+		8C1C1B3B1AA21FD4006045AE /* bug2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bug2-32.png"; sourceTree = "<group>"; };
+		8C1C1B3D1AA22005006045AE /* camera_identification-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_identification-32.png"; sourceTree = "<group>"; };
+		8C1C1B451AA2222B006045AE /* Comentario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comentario.h; sourceTree = "<group>"; };
+		8C1C1B461AA2222B006045AE /* Comentario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comentario.m; sourceTree = "<group>"; };
+		8C1C1B481AA2232E006045AE /* Respuesta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Respuesta.h; sourceTree = "<group>"; };
+		8C1C1B491AA2232E006045AE /* Respuesta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Respuesta.m; sourceTree = "<group>"; };
+		8C1C1B4B1AA2251B006045AE /* user_male_circle-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_male_circle-32.png"; sourceTree = "<group>"; };
+		8C1C1B4D1AA22526006045AE /* user_female4-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_female4-32.png"; sourceTree = "<group>"; };
+		8C1C1B4F1AA225E9006045AE /* ComentariosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComentariosTableViewController.h; sourceTree = "<group>"; };
+		8C1C1B501AA225E9006045AE /* ComentariosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComentariosTableViewController.m; sourceTree = "<group>"; };
+		8C1C1B521AA226C2006045AE /* ComentarioTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComentarioTableViewCell.h; sourceTree = "<group>"; };
+		8C1C1B531AA226C2006045AE /* ComentarioTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComentarioTableViewCell.m; sourceTree = "<group>"; };
+		8C1C1B551AA22927006045AE /* user_male_4-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_male_4-50.png"; sourceTree = "<group>"; };
+		8C1C1B571AA22934006045AE /* user_female_4-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_female_4-50.png"; sourceTree = "<group>"; };
+		8C5F6A301AA23A1C0045D007 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C1C1B041AA21251006045AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1C1B201AA21251006045AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C1C1AFE1AA21251006045AE = {
+			isa = PBXGroup;
+			children = (
+				8C1C1B091AA21251006045AE /* CultivApp */,
+				8C1C1B261AA21251006045AE /* CultivAppTests */,
+				8C1C1B081AA21251006045AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1C1B081AA21251006045AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C1C1B071AA21251006045AE /* CultivApp.app */,
+				8C1C1B231AA21251006045AE /* CultivAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C1C1B091AA21251006045AE /* CultivApp */ = {
+			isa = PBXGroup;
+			children = (
+				8C1C1B0E1AA21251006045AE /* AppDelegate.h */,
+				8C1C1B0F1AA21251006045AE /* AppDelegate.m */,
+				8C1C1B141AA21251006045AE /* ViewController.h */,
+				8C1C1B151AA21251006045AE /* ViewController.m */,
+				8C1C1B171AA21251006045AE /* Main.storyboard */,
+				8C1C1B1A1AA21251006045AE /* Images.xcassets */,
+				8C1C1B1C1AA21251006045AE /* LaunchScreen.xib */,
+				8C1C1B111AA21251006045AE /* CultivApp.xcdatamodeld */,
+				8C1C1B0A1AA21251006045AE /* Supporting Files */,
+				8C1C1B451AA2222B006045AE /* Comentario.h */,
+				8C1C1B461AA2222B006045AE /* Comentario.m */,
+				8C1C1B481AA2232E006045AE /* Respuesta.h */,
+				8C1C1B491AA2232E006045AE /* Respuesta.m */,
+				8C1C1B4F1AA225E9006045AE /* ComentariosTableViewController.h */,
+				8C1C1B501AA225E9006045AE /* ComentariosTableViewController.m */,
+				8C1C1B521AA226C2006045AE /* ComentarioTableViewCell.h */,
+				8C1C1B531AA226C2006045AE /* ComentarioTableViewCell.m */,
+			);
+			path = CultivApp;
+			sourceTree = "<group>";
+		};
+		8C1C1B0A1AA21251006045AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C5F6A301AA23A1C0045D007 /* logo.png */,
+				8C1C1B571AA22934006045AE /* user_female_4-50.png */,
+				8C1C1B551AA22927006045AE /* user_male_4-50.png */,
+				8C1C1B4D1AA22526006045AE /* user_female4-32.png */,
+				8C1C1B4B1AA2251B006045AE /* user_male_circle-32.png */,
+				8C1C1B3D1AA22005006045AE /* camera_identification-32.png */,
+				8C1C1B3B1AA21FD4006045AE /* bug2-32.png */,
+				8C1C1B391AA21BFF006045AE /* for_experienced-32.png */,
+				8C1C1B371AA21BED006045AE /* mashroom-32.png */,
+				8C1C1B351AA21BDF006045AE /* leaf-32.png */,
+				8C1C1B331AA212BD006045AE /* Octocat.png */,
+				8C1C1B0B1AA21251006045AE /* Info.plist */,
+				8C1C1B0C1AA21251006045AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C1C1B261AA21251006045AE /* CultivAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C1C1B291AA21251006045AE /* CultivAppTests.m */,
+				8C1C1B271AA21251006045AE /* Supporting Files */,
+			);
+			path = CultivAppTests;
+			sourceTree = "<group>";
+		};
+		8C1C1B271AA21251006045AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C1C1B281AA21251006045AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C1C1B061AA21251006045AE /* CultivApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1C1B2D1AA21251006045AE /* Build configuration list for PBXNativeTarget "CultivApp" */;
+			buildPhases = (
+				8C1C1B031AA21251006045AE /* Sources */,
+				8C1C1B041AA21251006045AE /* Frameworks */,
+				8C1C1B051AA21251006045AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CultivApp;
+			productName = CultivApp;
+			productReference = 8C1C1B071AA21251006045AE /* CultivApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C1C1B221AA21251006045AE /* CultivAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1C1B301AA21251006045AE /* Build configuration list for PBXNativeTarget "CultivAppTests" */;
+			buildPhases = (
+				8C1C1B1F1AA21251006045AE /* Sources */,
+				8C1C1B201AA21251006045AE /* Frameworks */,
+				8C1C1B211AA21251006045AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C1C1B251AA21251006045AE /* PBXTargetDependency */,
+			);
+			name = CultivAppTests;
+			productName = CultivAppTests;
+			productReference = 8C1C1B231AA21251006045AE /* CultivAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C1C1AFF1AA21251006045AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Humberto Roldán Delgado";
+				TargetAttributes = {
+					8C1C1B061AA21251006045AE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8C1C1B221AA21251006045AE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8C1C1B061AA21251006045AE;
+					};
+				};
+			};
+			buildConfigurationList = 8C1C1B021AA21251006045AE /* Build configuration list for PBXProject "CultivApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C1C1AFE1AA21251006045AE;
+			productRefGroup = 8C1C1B081AA21251006045AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1C1B061AA21251006045AE /* CultivApp */,
+				8C1C1B221AA21251006045AE /* CultivAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C1C1B051AA21251006045AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1C1B4E1AA22526006045AE /* user_female4-32.png in Resources */,
+				8C1C1B3E1AA22005006045AE /* camera_identification-32.png in Resources */,
+				8C1C1B3C1AA21FD4006045AE /* bug2-32.png in Resources */,
+				8C1C1B381AA21BED006045AE /* mashroom-32.png in Resources */,
+				8C5F6A311AA23A1C0045D007 /* logo.png in Resources */,
+				8C1C1B191AA21251006045AE /* Main.storyboard in Resources */,
+				8C1C1B1E1AA21251006045AE /* LaunchScreen.xib in Resources */,
+				8C1C1B3A1AA21BFF006045AE /* for_experienced-32.png in Resources */,
+				8C1C1B4C1AA2251B006045AE /* user_male_circle-32.png in Resources */,
+				8C1C1B581AA22934006045AE /* user_female_4-50.png in Resources */,
+				8C1C1B361AA21BDF006045AE /* leaf-32.png in Resources */,
+				8C1C1B1B1AA21251006045AE /* Images.xcassets in Resources */,
+				8C1C1B341AA212BD006045AE /* Octocat.png in Resources */,
+				8C1C1B561AA22927006045AE /* user_male_4-50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1C1B211AA21251006045AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1C1B031AA21251006045AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1C1B541AA226C2006045AE /* ComentarioTableViewCell.m in Sources */,
+				8C1C1B101AA21251006045AE /* AppDelegate.m in Sources */,
+				8C1C1B0D1AA21251006045AE /* main.m in Sources */,
+				8C1C1B161AA21251006045AE /* ViewController.m in Sources */,
+				8C1C1B511AA225E9006045AE /* ComentariosTableViewController.m in Sources */,
+				8C1C1B471AA2222B006045AE /* Comentario.m in Sources */,
+				8C1C1B4A1AA2232E006045AE /* Respuesta.m in Sources */,
+				8C1C1B131AA21251006045AE /* CultivApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1C1B1F1AA21251006045AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1C1B2A1AA21251006045AE /* CultivAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C1C1B251AA21251006045AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C1C1B061AA21251006045AE /* CultivApp */;
+			targetProxy = 8C1C1B241AA21251006045AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C1C1B171AA21251006045AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1C1B181AA21251006045AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C1C1B1C1AA21251006045AE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1C1B1D1AA21251006045AE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C1C1B2B1AA21251006045AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C1C1B2C1AA21251006045AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C1C1B2E1AA21251006045AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CultivApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C1C1B2F1AA21251006045AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CultivApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8C1C1B311AA21251006045AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CultivAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CultivApp.app/CultivApp";
+			};
+			name = Debug;
+		};
+		8C1C1B321AA21251006045AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CultivAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CultivApp.app/CultivApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C1C1B021AA21251006045AE /* Build configuration list for PBXProject "CultivApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1C1B2B1AA21251006045AE /* Debug */,
+				8C1C1B2C1AA21251006045AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1C1B2D1AA21251006045AE /* Build configuration list for PBXNativeTarget "CultivApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1C1B2E1AA21251006045AE /* Debug */,
+				8C1C1B2F1AA21251006045AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1C1B301AA21251006045AE /* Build configuration list for PBXNativeTarget "CultivAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1C1B311AA21251006045AE /* Debug */,
+				8C1C1B321AA21251006045AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C1C1B111AA21251006045AE /* CultivApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C1C1B121AA21251006045AE /* CultivApp.xcdatamodel */,
+			);
+			currentVersion = 8C1C1B121AA21251006045AE /* CultivApp.xcdatamodel */;
+			path = CultivApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C1C1AFF1AA21251006045AE /* Project object */;
+}
